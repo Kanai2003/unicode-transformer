@@ -1,7 +1,6 @@
 # unicode-transformer
 NPM package to convert normal string to styled string and vice versa by unicode transformations.
 
-
 ## Installation
 
 ```sh
@@ -76,6 +75,27 @@ const styledChar = toStyledUnicode('H', 'BOLD');
 
 console.log(styledChar);
 ```
+
+## Available Styles
+The following styles can be applied:
+- BOLD
+- ITALIC
+- UNDERLINE
+- CIRCLED
+- FULLWIDTH
+- FRAKTUR
+- SCRIPT
+- DOUBLE_STRUCK
+- MONOSPACE
+- SANS
+- SANS_BOLD
+- SANS_BOLD_ITALIC
+- SANS_ITALIC
+- PARENTHESIZED
+- SQUARED
+- SQUARED_NEG
+- BOLD_ITALIC
+- BOLD_ITALIC_UNDERLINE
 
 ## License
 This project is licensed under the MIT License.
