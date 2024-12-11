@@ -7,11 +7,44 @@
     "test": "jest",
     "prepare": "npm run build"
   },
+  "keywords": [
+    "unicode",
+    "transform",
+    "styles",
+    "unicode-transformer",
+    "styled-string",
+    "normal-string",
+    "unicode-styles",
+    "unicode-string",
+    "unicode-convertion",
+    "BOLD",
+    "ITALIC",
+    "UNDERLINE",
+    "CIRCLED",
+    "FULLWIDTH",
+    "FRAKTUR",
+    "SCRIPT",
+    "DOUBLE_STRUCK",
+    "MONOSPACE",
+    "SANS",
+    "SANS_BOLD",
+    "SANS_BOLD_ITALIC",
+    "SANS_ITALIC",
+    "PARENTHESIZED",
+    "SQUARED",
+    "SQUARED_NEG",
+    "BOLD_ITALIC",
+    "BOLD_ITALIC_UNDERLINE"
+  ],
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kanai2003/unicode-transformer"
   },
   "author": "Kanailal Manna",
   "license": "MIT"

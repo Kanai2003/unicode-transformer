@@ -48,6 +48,7 @@ export const unicodeStyleRanges = [
  * @returns {string[]} - Array of styles present in the Unicoded string.
  */
 export const getStyle = (char: string): string => {
+  if (char.length === 0 || char.length > 1) return char;
   const code = char.codePointAt(0);
   if (!code) return "Unknown style";
 
@@ -305,6 +306,7 @@ export const fromStyledUnicode = (char: string, style?: string) => {
  * @returns {string} - Unicoded styled string.
  */
 export const toStyledUnicode = (char: string, style: string) => {
+  if (char.length === 0 || char.length > 1) return char;
   const code = char.codePointAt(0);
   if (!code) return char;
 
